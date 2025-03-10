@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: "Roboto", serif;
+    --preto: #111827;
+    --branco: #ffffff;
+    --azul: #665DF5;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: var(--font-family);
+}
+
+.form {
+    width: 50%;
+    margin: 10em auto;
+    padding: 5em 5em;
+    background-color: var(--branco);
+    border-radius: 17px;
+}
+
+.intup-box {
+    text-align: center;
+}
+
+.intup-box input{
+    width: 94%;
+    margin: 4% 0 4% 0;
+    padding: 3% 3%;
+    border-radius: 7px;
+    border: 1px solid var(--preto);
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    width: 20%;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background-color: var(--azul);
+    color: var(--branco);
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    float: right;
+}

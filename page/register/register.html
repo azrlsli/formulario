@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/page/register/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="form-imagem">
+            <img src="/img/undraw_start-building_7gui.svg" alt="Logo de começar a construir">
+        </section>
+    
+        <form id="form" class="form">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Register</h1>
+                </div>
+
+                <div class="login-button">
+                    <button><a href="/index.html">Enter</a></button>
+                </div>
+            </div>
+
+            <div class="form-content" id="form">
+                <div class="input-box">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Digite o nome do usuário...">
+                    <a>Aqui a mensagem de erro...</a>
+                </div>
+        
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite o seu email...">
+                    <a>Aqui a mensagem de erro...</a>
+                </div>
+        
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Digite sua senha...">
+                    <a>Aqui a mensagem de erro...</a>
+                </div>
+        
+                <div class="input-box">
+                    <label for="password-confirmation">Password Confirmation</label>
+                    <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente...">
+                    <a>Aqui a mensagem de erro...</a>
+                </div>
+            </div>
+
+            <div class="contine-button">
+                <button type="submit">Completed</button>
+            </div>
+        </form>
+       </main>
+
+       <script src="script.js"></script>
+</body>
+</html>
